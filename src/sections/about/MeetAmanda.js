@@ -17,14 +17,14 @@ function MeetAmanda() {
             <p className="amanda-info-paragraph">
               Helping entrepreneurs introduce their business to the world by
               creating professional, custom-built websites from start to finish.
+              I specialize in making sites that are easy to scale and maintain.
             </p>
             <h3>Qualifications</h3>
             <p className="amanda-info-paragraph">
               <ul>
                 <li>MIT-trained Full Stack Web Developer</li>
                 <li>Google Analytics Certified</li>
-                <li>AWS Developer Certified</li>
-                <li>Shopify Expert Certified</li>
+                <li>AWS Developer</li>
               </ul>
             </p>
             <h3>Skills</h3>
