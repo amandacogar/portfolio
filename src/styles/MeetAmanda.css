@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&family=Raleway&display=swap");
+
+#meet-amanda {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #8f6450;
+  margin: 0;
+  padding: 1rem;
+}
+
+#meet-amanda-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  letter-spacing: 7px;
+  margin-top: 1rem;
+  position: relative;
+}
+
+#amanda-header {
+  font-family: "Seaweed Script";
+  font-size: 60px;
+  color: #e0d4cb;
+  text-align: right;
+  word-wrap: break-word;
+  padding: 1rem;
+}
+
+#styleLine2 {
+  width: 120%;
+  height: 0.3rem;
+  background-color: #131916;
+  margin-top: 5rem;
+}
+
+#meet-amanda-body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3%;
+  align-items: center;
+  justify-content: center;
+}
+
+#amanda-info {
+  background-color: #131916;
+  color: #e0d4cb;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 575px;
+}
+
+.content,
+#amanda-image {
+  width: 50%;
+  height: 100%;
+  background-color: #131916;
+  color: #e0d4cb;
+  padding: 2rem;
+}
+
+.content {
+  overflow: scroll;
+  padding: 3rem;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+#amanda-info h3 {
+  font-family: "Seaweed Script";
+  font-size: 23px;
+  padding: 0rem 1rem;
+}
+
+.amanda-info-paragraph {
+  font-size: 16px;
+  font-family: "Raleway";
+  letter-spacing: 3px;
+  padding: 1rem;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+.amanda-icon-paragraph {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.lang-icons {
+  font-size: 12px;
+  font-family: "Raleway";
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.lang-icons i {
+  color: #e0d4cb;
+  padding: 0rem 1rem;
+  font-size: 30px;
+}
+
+.lang-icons i:hover {
+  color: #fff;
+  text-shadow: #e0d4cb;
+}

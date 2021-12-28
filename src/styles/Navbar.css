@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&family=Raleway&display=swap");
+
+.me-auto {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Raleway";
+  background-color: #131916;
+  padding: 0rem 4rem;
+  align-items: center;
+}
+
+#basic-navbar-nav {
+  padding: 1px;
+  max-width: 100%;
+}
+
+.navbar-toggler {
+  margin: 0 0 2px 3px;
+}
+
+.nav-items {
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-items:hover {
+  text-shadow: 0 0 10px white, 0 0 12px white;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-items .active {
+  color: red;
+}
+
+#brand {
+  position: relative;
+  width: 30%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#amanda {
+  opacity: 0.7;
+  z-index: 2;
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#amanda:hover {
+  text-shadow: white 1px 1px;
+  opacity: 1;
+}
+
+#the-developer {
+  color: #8f6450;
+  position: absolute;
+  font-size: 65px;
+  font-family: "Seaweed Script";
+  text-transform: lowercase;
+  z-index: 1;
+  letter-spacing: 6px;
+}

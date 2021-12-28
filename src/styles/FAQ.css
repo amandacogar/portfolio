@@ -1,0 +1,72 @@
+#FAQ {
+  background-color: #131916;
+  color: #e0d4cb;
+  width: 100%;
+}
+
+#FAQ-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 7px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+#FAQ-title {
+  font-family: "Seaweed Script";
+  font-size: 60px;
+  color: #e0d4cb;
+  padding: 1rem;
+}
+
+#FAQ-styleLine {
+  width: 55%;
+  height: 0.3rem;
+  background-color: #8f6450;
+}
+
+#FAQ-body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#faq-container {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qCard {
+  width: 60%;
+  padding: 1rem;
+  overflow: hidden;
+  transition: 0.3s ease;
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.faq-title {
+  font-family: "Raleway";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.faq-text {
+  letter-spacing: 1px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}

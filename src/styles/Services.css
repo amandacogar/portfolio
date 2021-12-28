@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&family=Raleway&display=swap");
+
+#services {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #8f6450;
+  background-size: cover;
+  padding: 1rem;
+  margin: 0;
+}
+
+#services-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #e0d4cb;
+  padding: 0rem 1rem;
+}
+
+#service-header {
+  font-size: 60px;
+  font-family: "Seaweed Script";
+  text-align: center;
+  letter-spacing: 7px;
+  padding: 0 5%;
+}
+
+.styleLine {
+  width: 40%;
+  height: 0.2rem;
+  background-color: #e0d4cb;
+}
+
+#services-body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 25px;
+  padding: 1rem 0rem;
+  align-items: center;
+  justify-content: space-between;
+  overflow-wrap: break-word;
+  width: 400px;
+  height: 200px;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 5px #e0d4cb;
+  transition: 1sec ease;
+}
+
+.service.active {
+  transition: ease;
+  height: 450px;
+}
+
+.service-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.fab,
+.fas {
+  color: #8f6450;
+}
+
+.fab {
+  font-size: 70px;
+}
+
+.fas {
+  font-size: 60px;
+}
+
+.service p {
+  text-align: center;
+  padding: 0 1.5rem;
+  font-size: 16px;
+  letter-spacing: 1px;
+  height: 55%;
+}
+
+.learn {
+  background-color: #e0d4cb;
+  border: none;
+  color: #8f6450;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.learn:hover,
+.learn:focus {
+  background-color: #8f6450;
+  color: #e0d4cb;
+}
+
+.close {
+  font-size: 30px;
+}

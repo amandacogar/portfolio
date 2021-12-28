@@ -1,0 +1,131 @@
+@media (max-width: 1400px) {
+  .me-auto {
+    letter-spacing: 1px;
+    padding: 0rem 2rem;
+  }
+  #amanda {
+    font-size: 55px;
+    letter-spacing: 3px;
+  }
+  #the-developer {
+    font-size: 57px;
+  }
+}
+
+@media (max-width: 1300px) {
+  #table {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .me-auto {
+    letter-spacing: 1px;
+    padding: 0rem 1rem;
+  }
+  #amanda {
+    font-size: 45px;
+    letter-spacing: 3px;
+  }
+  #the-developer {
+    font-size: 50px;
+  }
+  .nav-items {
+    font-size: 18px;
+  }
+  #table {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1100px) {
+  #amanda {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  #the-developer {
+    font-size: 45px;
+  }
+  .nav-items {
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #brand {
+    width: 0%;
+    height: 0;
+    font-size: 0;
+    visibility: collapse;
+  }
+  .welcome {
+    padding: 3rem;
+  }
+  #slogan {
+    font-size: 20px;
+  }
+  #landing-header {
+    font-size: 55px;
+    text-align: center;
+  }
+  #how-it-works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #table {
+    width: 100%;
+  }
+  #amanda-info {
+    flex-direction: column;
+    height: 100%;
+  }
+  .content,
+  #amanda-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .swiper-slide {
+    width: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .service.active {
+    height: 100%;
+  }
+  .icon i {
+    font-size: 40px;
+  }
+  .qCard {
+    width: 85%;
+  }
+  .swipe-card-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 525px) {
+  .amanda-icon-paragraph {
+    justify-content: center;
+  }
+  .swipe-card-title {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .swipe-card-title {
+    font-size: 14px;
+  }
+  .swipe-card-description {
+    font-size: 12px;
+  }
+  .swipe-button {
+    font-size: 12px;
+  }
+}
