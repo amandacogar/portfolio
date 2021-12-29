@@ -1,10 +1,12 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, Image } from "react-bootstrap";
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 import "swiper/swiper.scss";
 import "swiper/modules/pagination/pagination.scss";
 import "swiper/modules/effect-coverflow/effect-coverflow.scss";
+import coffee from "./coffee.png";
+import bar from "./bar.png";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 
@@ -34,27 +36,38 @@ function Portfolio() {
             className="swiper"
           >
             <SwiperSlide className="swiper-slide">
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-              <div className="swipe-card">
-                <h2 className="swipe-card-title">Sample 1: Amanda News</h2>
-                <h3 className="swipe-card-description">API News React App</h3>
-                <Button className="swipe-button">View Site</Button>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              <Image src={coffee} className="web-image" />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">
-                  Sample 2: Wealth Calculator
+                  Sample 1: Vintage Coffee and Wine
                 </h2>
                 <h3 className="swipe-card-description">
-                  Finance Survey React App
+                  React app for small business with events, menus, contact, and
+                  company information.
                 </h3>
-                <Button className="swipe-button">View Site</Button>
+                <a href="https://coffeetemplate.amandacogar.com">
+                  <Button className="swipe-button">View Site</Button>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              <Image src={bar} className="web-image" />
+              <div className="swipe-card">
+                <h2 className="swipe-card-title">Sample 2: Local Bar</h2>
+                <h3 className="swipe-card-description">
+                  React app for small business with events, menus, contact, and
+                  company information. Includes Google Calendar API.
+                </h3>
+                <a href="https://bartemplate.amandacogar.com">
+                  <Button className="swipe-button">View Site</Button>
+                </a>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+              <img
+                src="https://swiperjs.com/demos/images/nature-1.jpg"
+                className="web-image"
+              />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Sample 3: Dilla Does</h2>
                 <h3 className="swipe-card-description">
@@ -64,7 +77,10 @@ function Portfolio() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-1.jpg"
+                className="web-image"
+              />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Sample 4: E-Commerce Store</h2>
                 <h3 className="swipe-card-description">
@@ -74,7 +90,10 @@ function Portfolio() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-1.jpg"
+                className="web-image"
+              />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Sample 5: Restaurant</h2>
                 <h3 className="swipe-card-description">
