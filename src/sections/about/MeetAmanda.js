@@ -22,8 +22,10 @@ function MeetAmanda() {
             <h3>Qualifications</h3>
             <p className="amanda-info-paragraph">
               <ul>
-                <li>MIT-trained Full Stack Web Developer</li>
-                <li>Google Analytics Certified</li>
+                <li>Full Stack Web Developer trained at MIT</li>
+                <li>
+                  Bachelors Degree from the University of Washington Seattle
+                </li>
                 <li>AWS Developer</li>
               </ul>
             </p>
@@ -36,10 +38,6 @@ function MeetAmanda() {
               <span className="lang-icons">
                 <i class="fab fa-css3-alt"></i>
                 <span>CSS</span>
-              </span>
-              <span className="lang-icons">
-                <i class="fab fa-figma"></i>
-                <span>Figma</span>
               </span>
               <span className="lang-icons">
                 <i class="fab fa-html5"></i>

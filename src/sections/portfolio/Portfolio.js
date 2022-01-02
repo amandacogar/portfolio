@@ -7,6 +7,8 @@ import "swiper/modules/pagination/pagination.scss";
 import "swiper/modules/effect-coverflow/effect-coverflow.scss";
 import coffee from "./coffee.png";
 import bar from "./bar.png";
+import nails from "./nails.png";
+import soon from "./soon.png";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 
@@ -64,42 +66,40 @@ function Portfolio() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img
-                src="https://swiperjs.com/demos/images/nature-1.jpg"
-                className="web-image"
-              />
+              <img src={nails} className="web-image" />
               <div className="swipe-card">
-                <h2 className="swipe-card-title">Sample 3: Dilla Does</h2>
+                <h2 className="swipe-card-title">Sample 3: Nail Salon</h2>
                 <h3 className="swipe-card-description">
-                  React Sole Proprietor Business Portfolio
+                  Nail Salon website with appointment scheduling created with
+                  React.
                 </h3>
-                <Button className="swipe-button">View Site</Button>
+                <Button className="swipe-button" disabled>
+                  View Site
+                </Button>
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img
-                src="https://swiperjs.com/demos/images/nature-1.jpg"
-                className="web-image"
-              />
+              <img src={soon} className="web-image" />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Sample 4: E-Commerce Store</h2>
                 <h3 className="swipe-card-description">
                   Shopify Drop Shipping Store
                 </h3>
-                <Button className="swipe-button">View Site</Button>
+                <Button className="swipe-button" disabled>
+                  View Site
+                </Button>
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img
-                src="https://swiperjs.com/demos/images/nature-1.jpg"
-                className="web-image"
-              />
+              <img src={soon} className="web-image" />
               <div className="swipe-card">
-                <h2 className="swipe-card-title">Sample 5: Restaurant</h2>
+                <h2 className="swipe-card-title">Sample 5: News App</h2>
                 <h3 className="swipe-card-description">
-                  Local Business Restaurant Website
+                  News search engine API created with React.
                 </h3>
-                <Button className="swipe-button">View Site</Button>
+                <Button className="swipe-button" disabled>
+                  View Site
+                </Button>
               </div>
             </SwiperSlide>
           </Swiper>

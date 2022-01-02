@@ -47,7 +47,7 @@ function Services() {
               Every custom website that I create comes with
               Search-Engine-Optimization to attract new customers to your
               business, Google Analytics to monitor your site's effectiveness, a
-              custom email domain, and free maintenance for life.
+              custom email domain, and will look great on every screen size.
             </p>
             <Button className="learn" onClick={handleOnClick} hidden={active1}>
               Learn More

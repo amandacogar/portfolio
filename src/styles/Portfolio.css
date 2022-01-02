@@ -94,3 +94,8 @@
   border: none;
   color: #e0d4cb;
 }
+
+.swipe-button:disabled {
+  background-color: #131916;
+  color: #e0d4cb;
+}
