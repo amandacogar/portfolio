@@ -9,18 +9,27 @@ function Services() {
   const handleOnClick = (e) => {
     e.target.parentNode.classList.toggle("active");
 
-    window.scroll({
-      top: 800,
-      left: 0,
-      behavior: "smooth",
-    });
-
     if (e.target.parentNode.id === "custom") {
       setActive1((prevCheck) => !prevCheck);
+      window.scroll({
+        top: 800,
+        left: 0,
+        behavior: "smooth",
+      });
     } else if (e.target.parentNode.id === "maintenance") {
       setActive2((prevCheck) => !prevCheck);
+      window.scroll({
+        top: 1000,
+        left: 0,
+        behavior: "smooth",
+      });
     } else {
       setActive3((prevCheck) => !prevCheck);
+      window.scroll({
+        top: 1400,
+        left: 0,
+        behavior: "smooth",
+      });
     }
   };
 

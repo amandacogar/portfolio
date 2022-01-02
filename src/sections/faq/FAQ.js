@@ -34,7 +34,7 @@ function FAQ() {
                   web builders make it easy to create generic websites without
                   code, it still takes significant time and effort to learn and
                   build one yourself. You and I both know that your time costs
-                  money. How much is your time worth?
+                  money. How much is your time worth to you?
                 </div>
                 <div>
                   Additionally, there are drawbacks to using pre-designed,
@@ -61,7 +61,7 @@ function FAQ() {
             </Accordion.Item>
             <Accordion.Item eventKey="3" className="qCard">
               <Accordion.Header className="faq-title">
-                Are websites expensive?
+                Why are websites expensive?
               </Accordion.Header>
               <Accordion.Body className="faq-text">
                 <div>
@@ -93,8 +93,12 @@ function FAQ() {
                     right? What are they doing wrong? What can you do better?
                   </li>
                   <li>
-                    Learn the basics of web development for business owners by
-                    reading this article.
+                    Learn the basics about hiring a web developer by reading
+                    this{" "}
+                    <a href="https://websitesetup.org/hire-a-web-developer/">
+                      article
+                    </a>
+                    .
                   </li>
                   <li>
                     Create a folder with all your existing marketing materials:
@@ -110,10 +114,10 @@ function FAQ() {
                 What if I'm not tech savvy?
               </Accordion.Header>
               <Accordion.Body className="faq-text">
-                The good news is, you don't need to be! I will handle the
-                process from start to finish and train you on how to perform day
-                to day tasks with the site. On top of that, my services include
-                free website maintenance for routine updates.
+                The good news is, you don't need to be! I handle the process
+                from start to finish. Any input required from the business owner
+                comes with hands-on support and pre-written instructions to help
+                guide you.
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>

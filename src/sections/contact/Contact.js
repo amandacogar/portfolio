@@ -13,19 +13,9 @@ function Contact() {
           <div className="circle">
             <OverlayTrigger
               placement="top"
-              overlay={<Tooltip>Request a Consultation</Tooltip>}
-            >
-              <a href="https://www.linkedin.com/in/amanda-cogar/">
-                <i class="fas fa-calendar-alt"></i>
-              </a>
-            </OverlayTrigger>
-          </div>
-          <div className="circle">
-            <OverlayTrigger
-              placement="top"
               overlay={<Tooltip>Email Me</Tooltip>}
             >
-              <a href="mailto:mandycogar@gmail.com">
+              <a href="mailto:hello@amandacogar.com">
                 <i class="fas fa-envelope-open-text"></i>
               </a>
             </OverlayTrigger>
