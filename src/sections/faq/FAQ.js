@@ -4,7 +4,7 @@ import { Accordion } from "react-bootstrap";
 function FAQ() {
   return (
     <>
-      <section name={"FAQ"} id="FAQ" className="section">
+      <section id="FAQ" className="section">
         <container id="FAQ-header">
           <h2 id="FAQ-title">Frequently Asked Questions</h2>
           <div id="FAQ-styleLine"></div>

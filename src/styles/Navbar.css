@@ -32,7 +32,7 @@
   text-decoration: none;
 }
 
-.nav-items .active {
+.nav-items.active {
   color: red;
 }
 

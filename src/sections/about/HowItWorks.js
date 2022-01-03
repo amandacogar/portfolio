@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap";
 function HowItWorks() {
   return (
     <>
-      <section name={"how-it-works"} id="how-it-works" className="section">
+      <section id="how-it-works" className="section">
         <div id="how-container">
           <Table borderless id="table">
             <thead>
@@ -15,7 +15,7 @@ function HowItWorks() {
             <tbody>
               <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-calendar-alt"></i>
+                  <i className="fas fa-calendar-alt"></i>
                 </td>
                 <td className="step">
                   Schedule a free consultation to discuss your business, goals,
@@ -24,7 +24,7 @@ function HowItWorks() {
               </tr>
               <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-clipboard-list"></i>
+                  <i className="fas fa-clipboard-list"></i>
                 </td>
                 <td className="step">
                   Review and approve the project estimate, agreed objectives,
@@ -33,70 +33,70 @@ function HowItWorks() {
               </tr>
               <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-money-check-alt"></i>
+                  <i className="fas fa-money-check-alt"></i>
                 </td>
                 <td className="step">Pay initial project deposit.</td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-laptop-code"></i>
+                  <i className="fas fa-laptop-code"></i>
                 </td>
                 <td className="step">
                   Wait for your ideas to be coded to life...
                 </td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-edit"></i>
+                  <i className="fas fa-edit"></i>
                 </td>
                 <td className="step">
                   Review the first draft of your website. Tweak, edit, remove or
                   add any finishing touches.
                 </td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-clock"></i>
+                  <i className="fas fa-clock"></i>
                 </td>
                 <td className="step">Wait just a little bit longer...</td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-check-circle"></i>
+                  <i className="fas fa-check-circle"></i>
                 </td>
                 <td className="step">Approve final draft.</td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-file-invoice-dollar"></i>
+                  <i className="fas fa-file-invoice-dollar"></i>
                 </td>
                 <td className="step">
                   Receive your invoice and pay your bill conveniently online.
                 </td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-rocket"></i>
+                  <i className="fas fa-rocket"></i>
                 </td>
                 <td className="step">Launch your website!</td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-chart-line"></i>
+                  <i className="fas fa-chart-line"></i>
                 </td>
                 <td className="step">Monitor site performance.</td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-tools"></i>
+                  <i className="fas fa-tools"></i>
                 </td>
                 <td className="step">
                   Keep in touch for free website maintenance.
                 </td>
               </tr>
-              <tr class="process">
+              <tr className="process">
                 <td className="icon">
-                  <i class="fas fa-thumbs-up"></i>
+                  <i className="fas fa-thumbs-up"></i>
                 </td>
                 <td td className="step">
                   Write a review and tell your friends!

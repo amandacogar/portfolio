@@ -118,6 +118,12 @@
   }
 }
 
+@media (max-width: 460px) {
+  #contact-body {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 400px) {
   .swipe-card-title {
     font-size: 14px;

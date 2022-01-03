@@ -9,13 +9,14 @@ import HowItWorks from "./sections/about/HowItWorks";
 import "./styles/HowItWorks.css";
 import MeetAmanda from "./sections/about/MeetAmanda";
 import "./styles/MeetAmanda.css";
-import Portfolio from "./sections/portfolio/Portfolio";
+import Samples from "./sections/portfolio/Portfolio";
 import "./styles/Portfolio.css";
 import FAQ from "./sections/faq/FAQ";
 import "./styles/FAQ.css";
 import Contact from "./sections/contact/Contact";
 import "./styles/Contact.css";
 import "./styles/Responsive.css";
+import "./styles/index.css";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <Services />
       <HowItWorks />
       <MeetAmanda />
-      <Portfolio />
+      <Samples />
       <FAQ />
       <Contact />
     </>

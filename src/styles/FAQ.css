@@ -5,25 +5,27 @@
 }
 
 #FAQ-header {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: center;
   align-items: center;
   letter-spacing: 7px;
-  margin-top: 1rem;
-  padding: 1rem;
+  position: relative;
+  margin-top: 3rem;
+  height: 100%;
 }
 
 #FAQ-title {
-  font-family: "Seaweed Script";
+  font-family: "Seaweed Script", sans-serif;
   font-size: 60px;
   color: #e0d4cb;
-  padding: 1rem;
+  width: 40%;
+  padding: 2rem;
 }
 
 #FAQ-styleLine {
-  width: 55%;
+  width: 65%;
   height: 0.3rem;
   background-color: #8f6450;
 }
@@ -56,7 +58,7 @@
 }
 
 .faq-title {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 20px;

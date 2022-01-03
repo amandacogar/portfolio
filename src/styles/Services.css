@@ -53,18 +53,13 @@
   justify-content: space-between;
   overflow-wrap: break-word;
   width: 400px;
-  height: 200px;
+  height: 450px;
 }
 
 .service:hover {
   transform: translateY(-10px);
   box-shadow: 5px 5px 5px #e0d4cb;
   transition: 1sec ease;
-}
-
-.service.active {
-  transition: ease;
-  height: 450px;
 }
 
 .service-title {

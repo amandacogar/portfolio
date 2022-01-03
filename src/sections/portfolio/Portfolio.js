@@ -12,10 +12,10 @@ import soon from "./soon.png";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 
-function Portfolio() {
+function Samples() {
   return (
     <>
-      <section name={"portfolio"} id="portfolio" className="section">
+      <section id="samples" className="section">
         <container id="portfolio-header">
           <div className="portfolio-styleLine"></div>
           <h2 id="portfolio-title">Portfolio</h2>
@@ -109,4 +109,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Samples;

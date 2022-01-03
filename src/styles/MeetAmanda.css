@@ -10,29 +10,28 @@
 }
 
 #meet-amanda-header {
-  display: flex;
-  flex-direction: row;
   width: 100%;
-  justify-content: space-between;
   letter-spacing: 7px;
-  margin-top: 1rem;
   position: relative;
 }
 
 #amanda-header {
-  font-family: "Seaweed Script";
+  font-family: "Seaweed Script", sans-serif;
   font-size: 60px;
   color: #e0d4cb;
   text-align: right;
   word-wrap: break-word;
-  padding: 1rem;
+  width: 30%;
+  margin-left: 68%;
 }
 
 #styleLine2 {
-  width: 120%;
+  width: 72%;
   height: 0.3rem;
   background-color: #131916;
   margin-top: 5rem;
+  position: absolute;
+  top: 5;
 }
 
 #meet-amanda-body {
@@ -74,14 +73,14 @@
 }
 
 #amanda-info h3 {
-  font-family: "Seaweed Script";
+  font-family: "Seaweed Script", sans-serif;
   font-size: 23px;
   padding: 0rem 1rem;
 }
 
 .amanda-info-paragraph {
   font-size: 16px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
   padding: 1rem;
   width: 100%;
@@ -99,7 +98,7 @@
 
 .lang-icons {
   font-size: 12px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   letter-spacing: 2px;
   display: flex;
   flex-direction: column;

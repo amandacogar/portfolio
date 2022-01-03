@@ -4,7 +4,7 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 function Contact() {
   return (
     <>
-      <section name={"contact"} id="contact" className="section">
+      <section id="contact" className="section">
         <container id="contact-header">
           <div id="contact-styleLine"></div>
           <h2 id="contact-title">Contact</h2>
@@ -16,7 +16,7 @@ function Contact() {
               overlay={<Tooltip>Email Me</Tooltip>}
             >
               <a href="mailto:hello@amandacogar.com">
-                <i class="fas fa-envelope-open-text"></i>
+                <i className="fas fa-envelope-open-text"></i>
               </a>
             </OverlayTrigger>
           </div>
@@ -26,7 +26,7 @@ function Contact() {
               overlay={<Tooltip>See My GitHub</Tooltip>}
             >
               <a href="https://github.com/amandacogar">
-                <i class="fab fa-github-alt"></i>
+                <i className="fab fa-github-alt"></i>
               </a>
             </OverlayTrigger>
           </div>
@@ -36,7 +36,7 @@ function Contact() {
               overlay={<Tooltip>Connect on LinkedIn</Tooltip>}
             >
               <a href="https://www.linkedin.com/in/amanda-cogar/">
-                <i class="fab fa-linkedin-in"></i>
+                <i className="fab fa-linkedin-in"></i>
               </a>
             </OverlayTrigger>
           </div>
