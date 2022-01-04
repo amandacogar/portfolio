@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "./Profile.jpeg";
+import Profile from "./Profile.jpg";
 import { Image } from "react-bootstrap";
 
 function MeetAmanda() {
