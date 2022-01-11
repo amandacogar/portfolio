@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 import "swiper/swiper.scss";
 import "swiper/modules/pagination/pagination.scss";
 import "swiper/modules/effect-coverflow/effect-coverflow.scss";
-import coffee from "./coffee.png";
-import bar from "./bar.png";
-import nails from "./nails.png";
-import soon from "./soon.png";
+import coffee from "./coffee.jpg";
+import bar from "./bar.jpg";
+import nails from "./nails.jpg";
+import soon from "./soon.jpg";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 
@@ -41,7 +41,7 @@ function Samples() {
               <Image src={coffee} className="web-image" />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">
-                  Sample 1: Vintage Coffee and Wine
+                  Sample 1: Vintage Style Coffee and Wine Shop
                 </h2>
                 <h3 className="swipe-card-description">
                   React app for small business with events, menus, contact, and
