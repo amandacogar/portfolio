@@ -1,11 +1,6 @@
-import React, { useState, useRef } from "react";
-import { Button } from "react-bootstrap";
+import React from "react";
 
 function Services() {
-  const [active1, setActive1] = useState(false);
-  const [active2, setActive2] = useState(false);
-  const [active3, setActive3] = useState(false);
-
   return (
     <>
       <section name={"services"} id="services" className="section">

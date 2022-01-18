@@ -85,6 +85,13 @@
   #amanda-image {
     width: 100%;
   }
+  #amanda-header {
+    width: 100%;
+    margin-left: 0%;
+  }
+  #styleLine2 {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 800px) {
@@ -105,6 +112,15 @@
   }
   .swipe-card-title {
     font-size: 18px;
+  }
+  .service {
+    height: 100%;
+  }
+  #FAQ-styleLine {
+    visibility: hidden;
+  }
+  #FAQ-title {
+    width: 100%;
   }
 }
 

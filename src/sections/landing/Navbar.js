@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
-import Scrollspy from "react-scrollspy";
 
 function Navigation() {
   return (
