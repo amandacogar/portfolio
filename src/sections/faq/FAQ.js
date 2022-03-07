@@ -5,11 +5,11 @@ function FAQ() {
   return (
     <>
       <section id="FAQ" className="section">
-        <container id="FAQ-header">
+        <div id="FAQ-header">
           <h2 id="FAQ-title">Frequently Asked Questions</h2>
           <div id="FAQ-styleLine"></div>
-        </container>
-        <container id="FAQ-body">
+        </div>
+        <div id="FAQ-body">
           <Accordion id="faq-container">
             <Accordion.Item eventKey="0" className="qCard">
               <Accordion.Header className="faq-title">
@@ -32,9 +32,10 @@ function FAQ() {
                   It's true, you don't need me to get your business on the
                   internet when web builders like SquareSpace exist. Although
                   web builders make it easy to create generic websites without
-                  code, it still takes significant time and effort to learn and
-                  build one yourself. You and I both know that your time costs
-                  money. How much is your time worth to you?
+                  code, it still takes significant time and effort to learn the
+                  software and build a website for yourself. You and I both know
+                  that your time costs money. How much is your time worth to
+                  you?
                 </div>
                 <div>
                   Additionally, there are drawbacks to using pre-designed,
@@ -61,7 +62,7 @@ function FAQ() {
             </Accordion.Item>
             <Accordion.Item eventKey="3" className="qCard">
               <Accordion.Header className="faq-title">
-                Why are websites expensive?
+                Can I afford a website?
               </Accordion.Header>
               <Accordion.Body className="faq-text">
                 <div>
@@ -121,7 +122,7 @@ function FAQ() {
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
-        </container>
+        </div>
       </section>
     </>
   );

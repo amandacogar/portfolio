@@ -44,7 +44,7 @@
   font-size: 24px;
 }
 #landing-header {
-  font-family: "Seaweed Script";
+  font-family: "Allison";
   font-size: 60px;
   text-transform: lowercase;
   padding: 1rem;
@@ -52,13 +52,20 @@
 
 #start {
   background-color: #8f6450;
-  padding: 5px 10px;
-  border: 1px solid white;
+  padding: 1rem 3rem;
   border-radius: 10px;
   color: #e0d4cb;
+  border: 1px solid black;
+  letter-spacing: 2px;
 }
 
 #start:active {
   transform: scale(0.9);
-  transition: scale ease;
+  transition: transform 0.5s ease;
+}
+
+#start:hover {
+  text-shadow: 0 0 10px #8f6450, 0 0 12px white;
+  border-color: #e0d4cb;
+  transition: 0.5 ease all;
 }

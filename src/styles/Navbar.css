@@ -21,19 +21,15 @@
   margin: 0 0 2px 3px;
 }
 
-.nav-items {
+.nav-link {
   font-size: 20px;
   text-align: center;
 }
 
-.nav-items:hover {
+.nav-link:hover {
   text-shadow: 0 0 10px white, 0 0 12px white;
   color: white;
   text-decoration: none;
-}
-
-.nav-items.active {
-  color: red;
 }
 
 #brand {
@@ -43,6 +39,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#brand:hover {
+  text-shadow: none;
 }
 
 #amanda {

@@ -12,16 +12,16 @@ import soon from "./soon.jpg";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 
-function Samples() {
+function Portfolio() {
   return (
     <>
-      <section id="samples" className="section">
-        <container id="portfolio-header">
+      <section id="portfolio" className="section">
+        <div id="portfolio-header">
           <div className="portfolio-styleLine"></div>
           <h2 id="portfolio-title">Portfolio</h2>
           <div className="portfolio-styleLine"></div>
-        </container>
-        <container id="portfolio-body">
+        </div>
+        <div id="portfolio-body">
           <Swiper
             effect={"coverflow"}
             grabCursor={true}
@@ -38,11 +38,9 @@ function Samples() {
             className="swiper"
           >
             <SwiperSlide className="swiper-slide">
-              <Image src={coffee} className="web-image" />
+              <Image src={coffee} className="web-image" alt="" />
               <div className="swipe-card">
-                <h2 className="swipe-card-title">
-                  Sample 1: Vintage Style Coffee and Wine Shop
-                </h2>
+                <h2 className="swipe-card-title">Coffee and Wine Shop</h2>
                 <h3 className="swipe-card-description">
                   React app for small business with events, menus, contact, and
                   company information.
@@ -53,12 +51,12 @@ function Samples() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <Image src={bar} className="web-image" />
+              <Image src={bar} className="web-image" alt="" />
               <div className="swipe-card">
-                <h2 className="swipe-card-title">Sample 2: Local Bar</h2>
+                <h2 className="swipe-card-title">Local Bar</h2>
                 <h3 className="swipe-card-description">
                   React app for small business with events, menus, contact, and
-                  company information. Includes Google Calendar API.
+                  company information.
                 </h3>
                 <a href="https://bartemplate.amandacogar.com">
                   <Button className="swipe-button">View Site</Button>
@@ -66,12 +64,12 @@ function Samples() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src={nails} className="web-image" />
+              <img src={nails} className="web-image" alt="" />
               <div className="swipe-card">
-                <h2 className="swipe-card-title">Sample 3: Nail Salon</h2>
+                <h2 className="swipe-card-title">Nail Salon</h2>
                 <h3 className="swipe-card-description">
-                  Nail Salon website with appointment scheduling created with
-                  React.
+                  Nail Salon website with appointment scheduling and gift
+                  certificate features.
                 </h3>
                 <Button className="swipe-button" disabled>
                   View Site
@@ -79,11 +77,16 @@ function Samples() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src={soon} className="web-image" />
+              <img
+                src={soon}
+                className="web-image"
+                alt="white text that displays 'Coming Soon'"
+              />
               <div className="swipe-card">
-                <h2 className="swipe-card-title">Sample 4: E-Commerce Store</h2>
+                <h2 className="swipe-card-title">E-Commerce Store</h2>
                 <h3 className="swipe-card-description">
-                  Shopify Drop Shipping Store
+                  Minimalistic ceramic drop-shipping store, developed with
+                  Shopify.
                 </h3>
                 <Button className="swipe-button" disabled>
                   View Site
@@ -91,11 +94,16 @@ function Samples() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src={soon} className="web-image" />
+              <img
+                src={soon}
+                className="web-image"
+                alt="white text that displays 'Coming Soon'"
+              />
               <div className="swipe-card">
-                <h2 className="swipe-card-title">Sample 5: News App</h2>
+                <h2 className="swipe-card-title">News App</h2>
                 <h3 className="swipe-card-description">
-                  News search engine API created with React.
+                  All the updates you're looking for in one place - World News,
+                  Crypto, and US Stocks using multiple APIs.
                 </h3>
                 <Button className="swipe-button" disabled>
                   View Site
@@ -103,10 +111,10 @@ function Samples() {
               </div>
             </SwiperSlide>
           </Swiper>
-        </container>
+        </div>
       </section>
     </>
   );
 }
 
-export default Samples;
+export default Portfolio;

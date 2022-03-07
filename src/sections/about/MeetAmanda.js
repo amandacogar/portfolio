@@ -2,22 +2,22 @@ import React from "react";
 import Profile from "./Profile.jpg";
 import { Image } from "react-bootstrap";
 
-function MeetAmanda() {
+function About() {
   return (
-    <section id="meet-amanda" className="section">
-      <container id="meet-amanda-header">
+    <section id="about" className="section">
+      <div id="meet-amanda-header">
         <div id="styleLine2"></div>
-        <h2 id="amanda-header">Hello, I'm Amanda the Developer</h2>
-      </container>
-      <container id="meet-amanda-body">
+        <h2 id="amanda-header">About Me</h2>
+      </div>
+      <div id="meet-amanda-body">
         <div id="amanda-info">
           <Image src={Profile} id="amanda-image" />
           <div className="content">
             <h3>My Mission</h3>
             <div className="amanda-info-paragraph">
-              Helping entrepreneurs introduce their business to the world by
-              creating professional, custom-built websites from start to finish.
-              I specialize in making sites that are easy to scale and maintain.
+              Helping small businesses grow to compete with large corporations
+              by providing them a platform to introduce their business to the
+              world.
             </div>
             <h3>Qualifications</h3>
             <div className="amanda-info-paragraph">
@@ -26,7 +26,6 @@ function MeetAmanda() {
                 <li>
                   Bachelors Degree from the University of Washington Seattle
                 </li>
-                <li>AWS Developer</li>
               </ul>
             </div>
             <h3>Skills</h3>
@@ -78,9 +77,9 @@ function MeetAmanda() {
             </div>
           </div>
         </div>
-      </container>
+      </div>
     </section>
   );
 }
 
-export default MeetAmanda;
+export default About;

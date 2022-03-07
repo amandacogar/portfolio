@@ -1,4 +1,5 @@
 import React from "react";
+import Loading from "./sections/landing/loading";
 import Navigation from "./sections/landing/Navbar";
 import "./styles/Navbar.css";
 import Landing from "./sections/landing/Landing";
@@ -21,6 +22,7 @@ import "./styles/index.css";
 function App() {
   return (
     <>
+      <Loading />
       <Navigation />
       <Landing />
       <Services />

@@ -12,12 +12,6 @@
   }
 }
 
-@media (max-width: 1300px) {
-  #table {
-    width: 55%;
-  }
-}
-
 @media (max-width: 1200px) {
   .me-auto {
     letter-spacing: 1px;
@@ -33,8 +27,15 @@
   .nav-items {
     font-size: 18px;
   }
-  #table {
-    width: 70%;
+  #FAQ-styleLine {
+    width: 0%;
+    height: 0;
+    margin: 0;
+  }
+  #FAQ-title {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -85,18 +86,18 @@
   #amanda-image {
     width: 100%;
   }
-  #amanda-header {
-    width: 100%;
-    margin-left: 0%;
-  }
-  #styleLine2 {
-    visibility: hidden;
+  .service {
+    width: 600px;
+    height: 372px;
   }
 }
 
 @media (max-width: 800px) {
-  .swiper-slide {
-    width: 320px;
+  .process {
+    width: 350px;
+  }
+  .icon {
+    width: 11%;
   }
 }
 
@@ -116,11 +117,23 @@
   .service {
     height: 100%;
   }
-  #FAQ-styleLine {
-    visibility: hidden;
-  }
   #FAQ-title {
     width: 100%;
+  }
+  #contact {
+    height: 100%;
+  }
+  #contact-styleLine,
+  #styleLine2 {
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+  }
+  #contact-header,
+  #amanda-header {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
   }
 }
 

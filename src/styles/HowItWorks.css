@@ -3,49 +3,40 @@
 #how-it-works {
   width: 100%;
   height: 100%;
-  background-image: url("../sections/about/Picture1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #131916;
   margin: 0;
-}
-
-#table {
-  padding: 2rem;
   display: flex;
   flex-direction: column;
-  margin: 0;
-  width: 45%;
-}
-
-#table tbody,
-thead {
-  background-color: #131916;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  overflow-x: hidden;
 }
 
 #how-header {
-  font-size: 60px;
-  font-family: "Seaweed Script";
+  font-size: 64px;
+  font-family: "Allison";
   letter-spacing: 10px;
   color: #e0d4cb;
   text-align: center;
+  padding: 2rem;
 }
 
 .process {
   display: flex;
-  color: #e0d4cb;
-  text-align: left;
   align-items: center;
   justify-content: flex-start;
+  width: 700px;
+  height: 100%;
   font-size: 16px;
   font-family: "Raleway";
   letter-spacing: 1px;
-  width: 100%;
-}
-
-.process:hover,
-.process:hover i {
-  color: #fff;
-  text-shadow: #e0d4cb;
+  color: #131916;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  opacity: 0.8;
 }
 
 .icon {

@@ -4,12 +4,12 @@ function Services() {
   return (
     <>
       <section name={"services"} id="services" className="section">
-        <container id="services-header">
+        <div id="services-header">
           <div className="styleLine"></div>
           <h2 id="service-header">Services</h2>
           <div className="styleLine"></div>
-        </container>
-        <container id="services-body">
+        </div>
+        <div id="services-body">
           <div className="service" id="custom">
             <i className="fas fa-code"></i>
             <h3 className="service-title">Custom Websites</h3>
@@ -17,38 +17,35 @@ function Services() {
               Make your business stand out with a custom website that embodies
               your brand, engineered with your customers in mind. I take the
               time to listen to your story and understand what makes you unique,
-              then work with you to design and develop the website of your
-              dreams.
+              then work with you to design and develop a professional website
+              that will grow your business.
             </p>
             <p>
-              Every custom website that I create comes with
+              Every custom website that I create comes with technical
               Search-Engine-Optimization to attract new customers to your
               business, Google Analytics to monitor your site's effectiveness, a
-              custom email domain, and will look great on every screen size.
+              custom email domain, and extensive user testing.
             </p>
           </div>
           <div className="service" id="maintenance">
             <i className="fas fa-tools"></i>
             <h3 className="service-title">Makeovers and Maintenance</h3>
             <p>
-              If your website needs a tune-up, you've come to the right place! I
-              save business owners hours of their valuable time by offering
-              website maintenance and debugging for Content Management Systems
-              such as Shopify, Wordpress, Wix, and SquareSpace.
-            </p>
-            <p>
-              Whether you're completely redesigning your site, need someone to
-              finish an incomplete project, or just need a couple of changes
-              made, I can help you achieve your goals for your website.
+              Whether your existing site has a bug or needs a design tune-up, I
+              can jump into help at any stage of the process. I save business
+              owners hours of their valuable time by offering website
+              maintenance and debugging for Content Management Systems such as
+              Shopify, Wordpress, Wix, and SquareSpace.
             </p>
           </div>
           <div className="service" id="shopify">
             <i className="fab fa-shopify"></i>
             <h3 className="service-title">Shopify Site Development</h3>
             <p>
-              Breaking into the e-commerce world has never been easier with
-              Shopify. Even still, setting up an online store takes significant
-              time and energy that many business owners can't afford to waste.
+              Breaking into the e-commerce world has never been easier now that
+              we have tools like Shopify. Even still, setting up an online store
+              takes significant time and energy that many business owners can't
+              afford to spend.
             </p>
             <p>
               As your one stop Shopify expert, I will manage the set-up process
@@ -56,7 +53,7 @@ function Services() {
               traffic into sales, and set your business up for success.
             </p>
           </div>
-        </container>
+        </div>
       </section>
     </>
   );

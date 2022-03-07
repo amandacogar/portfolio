@@ -5,11 +5,11 @@ function Contact() {
   return (
     <>
       <section id="contact" className="section">
-        <container id="contact-header">
+        <div id="contact-header">
           <div id="contact-styleLine"></div>
           <h2 id="contact-title">Contact</h2>
-        </container>
-        <container id="contact-body">
+        </div>
+        <div id="contact-body">
           <div className="circle">
             <OverlayTrigger
               placement="top"
@@ -17,6 +17,16 @@ function Contact() {
             >
               <a href="mailto:hello@amandacogar.com">
                 <i className="fas fa-envelope-open-text"></i>
+              </a>
+            </OverlayTrigger>
+          </div>
+          <div className="circle">
+            <OverlayTrigger
+              placement="top"
+              overlay={<Tooltip>Schedule a Consultation</Tooltip>}
+            >
+              <a href="https://squareup.com/appointments/book/d7qnlrk1kvpvmb/LZ690ANSV2YT7/start">
+                <i className="fas fa-calendar-check"></i>
               </a>
             </OverlayTrigger>
           </div>
@@ -40,7 +50,7 @@ function Contact() {
               </a>
             </OverlayTrigger>
           </div>
-        </container>
+        </div>
       </section>
     </>
   );

@@ -1,37 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&family=Raleway&display=swap");
 
-#meet-amanda {
+#about {
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #8f6450;
-  margin: 0;
-  padding: 1rem;
 }
 
 #meet-amanda-header {
   width: 100%;
   letter-spacing: 7px;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
 }
 
 #amanda-header {
-  font-family: "Seaweed Script", sans-serif;
-  font-size: 60px;
+  font-family: "Allison", sans-serif;
+  font-size: 64px;
   color: #e0d4cb;
   text-align: right;
-  word-wrap: break-word;
-  width: 40%;
-  margin-left: 60%;
+  padding: 2rem;
 }
 
 #styleLine2 {
-  width: 60%;
-  height: 0.3rem;
-  background-color: #131916;
-  margin-top: 5rem;
-  position: absolute;
-  top: 5;
+  width: 70%;
+  height: 0.2rem;
+  background-color: #e0d4cb;
+  margin: 2rem;
 }
 
 #meet-amanda-body {
@@ -52,6 +50,8 @@
   flex-wrap: wrap;
   width: 100%;
   height: 575px;
+  border-radius: 15px;
+  border: 1px solid black;
 }
 
 .content,
@@ -61,6 +61,8 @@
   background-color: #131916;
   color: #e0d4cb;
   padding: 2rem;
+  border-radius: 15px;
+  border: 1px solid black;
 }
 
 .content {
@@ -68,13 +70,19 @@
   padding: 3rem;
 }
 
+.content {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
 .content::-webkit-scrollbar {
-  display: none;
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 #amanda-info h3 {
-  font-family: "Seaweed Script", sans-serif;
-  font-size: 23px;
+  font-family: "Allison", sans-serif;
+  font-size: 32px;
   padding: 0rem 1rem;
 }
 
