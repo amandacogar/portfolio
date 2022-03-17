@@ -16,11 +16,36 @@ function FAQ() {
                 Why does my business need a website?
               </Accordion.Header>
               <Accordion.Body className="faq-text">
-                Websites can have a massive impact on your business' success.
-                Majority of customers will look for a website before making a
-                purchase. Having one establishes credibility, professionally
-                showcases your products, and converts casual viewers into loyal
-                customers.
+                <div>
+                  Websites have a massive impact on your business' success.
+                  According to Web Credibility Research from Stanford, 75% of
+                  consumers use the internet to research products or services
+                  before making a purchase. In other words, potential new
+                  customers EXPECT a website to determine if you are a reputable
+                  enough to do business with.
+                </div>
+                <div>
+                  On top of establishing credibility with new customers, having
+                  a website is a straight forward solution to make your business
+                  more efficient for YOU. Having an online presence makes you
+                  discoverable to a wider audience, increasing your potential
+                  customer base without having to lift a finger. Additionally,
+                  when a potential customer visits your website, they are often
+                  seeking answers to basic questions such as opening hours,
+                  contact information, and products/services sold. Putting this
+                  information online allows customers to easily access the
+                  answers to their questions 24/7 - even if you're unavailable.
+                  This means less time spent on the phone answering basic
+                  questions.
+                </div>
+                <div>
+                  Lastly, a website provides you with an opportunity to
+                  streamline administrative processes - such as appointment
+                  booking, selling gift cards, or launching an email marketing
+                  campaign. Allowing the code to do the busy work for you allows
+                  you to focus on the important aspects on your business and be
+                  more productive.
+                </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1" className="qCard">
@@ -29,21 +54,26 @@ function FAQ() {
               </Accordion.Header>
               <Accordion.Body className="faq-text">
                 <div>
-                  It's true, you don't need me to get your business on the
-                  internet when web builders like SquareSpace exist. Although
-                  web builders make it easy to create generic websites without
-                  code, it still takes significant time and effort to learn the
-                  software and build a website for yourself. You and I both know
-                  that your time costs money. How much is your time worth to
-                  you?
-                </div>
-                <div>
-                  Additionally, there are drawbacks to using pre-designed,
-                  generic templates. Imagine: your competitors could be using
-                  the same pre-built template design as you. Hiring a
-                  professional developer sets you apart from the competition by
-                  implementing a custom design and unique features that will wow
-                  your customers.
+                  <div>
+                    It's true, in today's world, you can throw a website
+                    together with Squarespace or Wix without the help of a web
+                    developer. While the "DIY" option exists, it still requires
+                    significant time and effort to implement. If you are not
+                    skilled in website design or search engine optimization, you
+                    could end up spending weeks of your valuable time creating a
+                    website that hurts your business' image and causes
+                    frustration for you AND your customers. Hiring a web
+                    developer prevents this type of situation while still
+                    allowing you to be hands-on with the design.
+                  </div>
+                  <div>
+                    DIY website builders often produce generic websites that
+                    lack advanced functionality. On the other hand, a
+                    professional developer can provide a custom design that will
+                    help you stand out from your competitors and has the
+                    knowledge to include advanced features that will impress and
+                    engage your audience.
+                  </div>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
@@ -95,7 +125,7 @@ function FAQ() {
                   </li>
                   <li>
                     Learn the basics about hiring a web developer by reading
-                    this{" "}
+                    this
                     <a href="https://websitesetup.org/hire-a-web-developer/">
                       article
                     </a>

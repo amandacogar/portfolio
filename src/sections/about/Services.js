@@ -24,33 +24,23 @@ function Services() {
               Every custom website that I create comes with technical
               Search-Engine-Optimization to attract new customers to your
               business, Google Analytics to monitor your site's effectiveness, a
-              custom email domain, and extensive user testing.
+              custom email domain, extensive testing, and 3 months of free
+              maintenance support.
             </p>
           </div>
           <div className="service" id="maintenance">
             <i className="fas fa-tools"></i>
             <h3 className="service-title">Makeovers and Maintenance</h3>
             <p>
-              Whether your existing site has a bug or needs a design tune-up, I
-              can jump into help at any stage of the process. I save business
-              owners hours of their valuable time by offering website
-              maintenance and debugging for Content Management Systems such as
-              Shopify, Wordpress, Wix, and SquareSpace.
-            </p>
-          </div>
-          <div className="service" id="shopify">
-            <i className="fab fa-shopify"></i>
-            <h3 className="service-title">Shopify Site Development</h3>
-            <p>
-              Breaking into the e-commerce world has never been easier now that
-              we have tools like Shopify. Even still, setting up an online store
-              takes significant time and energy that many business owners can't
-              afford to spend.
+              I save business owners hours of their valuable time by offering
+              website maintenance, debugging, and re-design for websites built
+              on Content Management Systems such as Shopify, Wordpress, Wix, and
+              SquareSpace.
             </p>
             <p>
-              As your one stop Shopify expert, I will manage the set-up process
-              from start to finish, build a tailor-made storefront to convert
-              traffic into sales, and set your business up for success.
+              Whether your existing website has a small problem or needs to be
+              completely revamped, I can help you reach your goals at any stage
+              of the process.
             </p>
           </div>
         </div>

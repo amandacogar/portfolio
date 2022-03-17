@@ -83,3 +83,7 @@ button.accordion-button:not(.collapsed)::after {
   flex-direction: column;
   color: #e0d4cb;
 }
+
+.faq-text div {
+  padding: 10px;
+}

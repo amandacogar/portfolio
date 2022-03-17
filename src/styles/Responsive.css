@@ -51,6 +51,14 @@
     font-size: 17px;
     letter-spacing: 0;
   }
+  #amanda-info {
+    flex-direction: column;
+    height: 100%;
+  }
+  .content,
+  #amanda-image {
+    width: 100%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -76,14 +84,6 @@
     justify-content: center;
   }
   #table {
-    width: 100%;
-  }
-  #amanda-info {
-    flex-direction: column;
-    height: 100%;
-  }
-  .content,
-  #amanda-image {
     width: 100%;
   }
   .service {

@@ -8,6 +8,7 @@ import "swiper/modules/effect-coverflow/effect-coverflow.scss";
 import coffee from "./coffee.jpg";
 import bar from "./bar.jpg";
 import nails from "./nails.jpg";
+import dilladoes from "./dilladoes.jpg";
 import soon from "./soon.jpg";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
@@ -42,8 +43,8 @@ function Portfolio() {
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Coffee and Wine Shop</h2>
                 <h3 className="swipe-card-description">
-                  React app for small business with events, menus, contact, and
-                  company information.
+                  Sample website created for a vintage inspired Coffee and Wine
+                  shop.
                 </h3>
                 <a href="https://coffeetemplate.amandacogar.com">
                   <Button className="swipe-button">View Site</Button>
@@ -55,8 +56,7 @@ function Portfolio() {
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Local Bar</h2>
                 <h3 className="swipe-card-description">
-                  React app for small business with events, menus, contact, and
-                  company information.
+                  Sample website created for a local bar near Seattle, WA.
                 </h3>
                 <a href="https://bartemplate.amandacogar.com">
                   <Button className="swipe-button">View Site</Button>
@@ -68,29 +68,28 @@ function Portfolio() {
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Nail Salon</h2>
                 <h3 className="swipe-card-description">
-                  Nail Salon website with appointment scheduling and gift
-                  certificate features.
+                  Sample nail salon website with scheduling feature.
                 </h3>
-                <Button className="swipe-button" disabled>
-                  View Site
-                </Button>
+                <a href="https://bartemplate.amandacogar.com">
+                  <Button className="swipe-button">View Site</Button>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <img
-                src={soon}
+                src={dilladoes}
                 className="web-image"
-                alt="white text that displays 'Coming Soon'"
+                alt="Screenshot of the landing page of the website 'dilladoes.com'"
               />
               <div className="swipe-card">
-                <h2 className="swipe-card-title">E-Commerce Store</h2>
+                <h2 className="swipe-card-title">Dilla Does</h2>
                 <h3 className="swipe-card-description">
-                  Minimalistic ceramic drop-shipping store, developed with
-                  Shopify.
+                  Haircuts, tattoos, and custom artwork business located in
+                  Hanford, CA.
                 </h3>
-                <Button className="swipe-button" disabled>
-                  View Site
-                </Button>
+                <a href="https://dilladoes.com">
+                  <Button className="swipe-button">View Site</Button>
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">

@@ -1,12 +1,12 @@
 import React from "react";
-import Fade from "react-reveal/Slide";
+import { Fade } from "react-awesome-reveal";
 
 function HowItWorks() {
   return (
     <>
       <section id="how-it-works" className="section">
         <h2 id="how-header">How It Works</h2>
-        <Fade bottom cascade duration={1600}>
+        <Fade bottom cascade delay={300}>
           <div className="process">
             <div className="icon">
               <i className="fas fa-calendar-alt"></i>
@@ -18,25 +18,13 @@ function HowItWorks() {
           </div>
           <div className="process">
             <div className="icon">
-              <i className="fas fa-clipboard-list"></i>
-            </div>
-            <div className="step">
-              Review and approve the project estimate, agreed objectives, and
-              service contract.
-            </div>
-          </div>
-          <div className="process">
-            <div className="icon">
-              <i className="fas fa-money-check-alt"></i>
-            </div>
-            <div className="step">Pay your project deposit.</div>
-          </div>
-          <div className="process">
-            <div className="icon">
               <i class="fas fa-magic"></i>
             </div>
             <div className="step">
-              Edit, review, and approve your project's design.
+              Based off our discussion, I will design a responsive website with
+              built-in solutions to increase profits and make your business more
+              efficient. We will review the design together and you are free to
+              tweak, add, or remove sections as needed.
             </div>
           </div>
           <div className="process">
@@ -49,19 +37,13 @@ function HowItWorks() {
           </div>
           <div className="process">
             <div className="icon">
-              <i className="fas fa-edit"></i>
+              <i class="fas fa-clipboard-check"></i>
             </div>
             <div className="step">
-              Edit, review, and approve your finished website before it is
-              launched.
-            </div>
-          </div>
-          <div className="process">
-            <div className="icon">
-              <i className="fas fa-file-invoice-dollar"></i>
-            </div>
-            <div className="step">
-              Receive your invoice and pay your bill conveniently online.
+              The code will be tested on multiple screen sizes, device types,
+              and internet browsers. Additionally, I will test your site with
+              real humans to ensure a flawless experience for all your
+              customers.
             </div>
           </div>
           <div className="process">
@@ -85,14 +67,6 @@ function HowItWorks() {
             <div className="step">
               Keep in touch for free website maintenance for 3 months after
               launch.
-            </div>
-          </div>
-          <div className="process">
-            <div className="icon">
-              <i className="fas fa-thumbs-up"></i>
-            </div>
-            <div className="step">
-              Write a review and tell your friends about your experience!
             </div>
           </div>
         </Fade>
