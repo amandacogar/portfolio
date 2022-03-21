@@ -70,7 +70,7 @@ function Portfolio() {
                 <h3 className="swipe-card-description">
                   Sample nail salon website with scheduling feature.
                 </h3>
-                <a href="https://bartemplate.amandacogar.com">
+                <a href="https://nails.amandacogar.com">
                   <Button className="swipe-button">View Site</Button>
                 </a>
               </div>
