@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&family=Raleway&display=swap&family=Allison&display=swap");
 
 #services {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background-color: #8f6450;
-  background-size: cover;
-  padding: 3rem 1rem;
-  margin: 0;
+  background-color: #e0d4cb;
 }
 
 #services-header {
@@ -16,50 +10,41 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  color: #e0d4cb;
-  padding: 0rem 1rem;
-}
-
-#service-header {
-  font-size: 72px;
-  font-family: "Allison";
-  text-align: center;
-  letter-spacing: 7px;
-  padding: 0 5%;
+  color: #131916;
 }
 
 .styleLine {
-  width: 40%;
+  width: 30%;
   height: 0.2rem;
-  background-color: #e0d4cb;
+  background-color: #131916;
 }
 
 #services-body {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 50px 0rem;
   justify-content: center;
+  align-items: center;
+}
+
+#service-header {
+  padding: 1rem;
 }
 
 .service {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  margin: 2rem;
   border-radius: 25px;
   padding: 1rem 0rem;
   align-items: center;
   justify-content: space-evenly;
   overflow-wrap: break-word;
-  width: 600px;
-  height: 400px;
-}
-
-.service:hover {
-  transform: translateY(-10px);
-  box-shadow: 5px 5px 5px #e0d4cb;
-  transition: 1sec ease;
+  width: 100%;
+  height: 100%;
 }
 
 .service-title {
@@ -68,26 +53,20 @@
   letter-spacing: 2px;
   font-family: "Raleway";
   text-align: center;
-}
-
-.fab,
-.fas {
-  color: #8f6450;
-}
-
-.fab {
-  font-size: 70px;
+  margin: 1rem;
 }
 
 .fas {
   font-size: 60px;
+  color: #8f6450;
+  margin: 1rem 0rem;
 }
 
 .service p {
   text-align: center;
-  padding: 0 1.5rem;
   font-size: 16px;
   letter-spacing: 1px;
+  width: 90%;
   height: 55%;
 }
 

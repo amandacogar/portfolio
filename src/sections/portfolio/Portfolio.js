@@ -18,16 +18,16 @@ function Portfolio() {
     <>
       <section id="portfolio" className="section">
         <div id="portfolio-header">
-          <div className="portfolio-styleLine"></div>
+          <div className="styleLine"></div>
           <h2 id="portfolio-title">Portfolio</h2>
-          <div className="portfolio-styleLine"></div>
+          <div className="styleLine"></div>
         </div>
         <div id="portfolio-body">
           <Swiper
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={3}
+            slidesPerView={2}
             coverflowEffect={{
               rotate: 50,
               stretch: 0,
@@ -100,10 +100,7 @@ function Portfolio() {
               />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">News App</h2>
-                <h3 className="swipe-card-description">
-                  All the updates you're looking for in one place - World News,
-                  Crypto, and US Stocks using multiple APIs.
-                </h3>
+                <h3 className="swipe-card-description"></h3>
                 <Button className="swipe-button" disabled>
                   View Site
                 </Button>

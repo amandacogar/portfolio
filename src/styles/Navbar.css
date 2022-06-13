@@ -1,24 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&family=Raleway&display=swap");
 
+.navbar {
+  padding: 0;
+  width: 110%;
+}
+
 .me-auto {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: "Raleway";
-  background-color: #131916;
-  padding: 0rem 4rem;
-  align-items: center;
-}
-
-#basic-navbar-nav {
-  padding: 1px;
-  max-width: 100%;
+  font-size: 14px;
+  background-color: #13191691;
 }
 
 .navbar-toggler {
-  margin: 0 0 2px 3px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+.navbar-toggler-icon {
+  width: 50px;
+  height: 50px;
 }
 
 .nav-link {
@@ -32,38 +38,8 @@
   text-decoration: none;
 }
 
-#brand {
-  position: relative;
-  width: 30%;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#brand:hover {
-  text-shadow: none;
-}
-
-#amanda {
-  opacity: 0.7;
-  z-index: 2;
-  letter-spacing: 5px;
-  text-align: center;
-  font-size: 50px;
-}
-
-#amanda:hover {
-  text-shadow: white 1px 1px;
-  opacity: 1;
-}
-
-#the-developer {
-  color: #8f6450;
-  position: absolute;
-  font-size: 65px;
-  font-family: "Seaweed Script";
-  text-transform: lowercase;
-  z-index: 1;
-  letter-spacing: 6px;
+#web-logo {
+  width: 100%;
+  max-width: 440px;
+  opacity: 75%;
 }

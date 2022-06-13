@@ -14,12 +14,8 @@
 }
 
 #how-header {
-  font-size: 64px;
-  font-family: "Allison";
-  letter-spacing: 10px;
-  color: #e0d4cb;
-  text-align: center;
-  padding: 2rem;
+  color: #fff;
+  margin: 3rem;
 }
 
 .process {

@@ -14,22 +14,22 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 #amanda-header {
-  font-family: "Allison", sans-serif;
-  font-size: 64px;
   color: #e0d4cb;
+  flex-wrap: nowrap;
+  width: 35%;
+  min-width: 315px;
   text-align: right;
-  padding: 2rem;
+  margin: 2rem 1rem;
 }
 
 #styleLine2 {
   width: 70%;
   height: 0.2rem;
   background-color: #e0d4cb;
-  margin: 2rem;
 }
 
 #meet-amanda-body {
@@ -37,9 +37,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 3%;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 #amanda-info {
@@ -68,13 +68,12 @@
 
 .content {
   overflow: scroll;
-  padding: 3rem;
-}
-
-.content {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
+  padding: 2rem;
+  -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
 }
 
 .content::-webkit-scrollbar {
@@ -82,9 +81,9 @@
 }
 
 #amanda-info h3 {
-  font-family: "Allison", sans-serif;
+  font-family: "brittany_signatureregular", sans-serif;
   font-size: 32px;
-  padding: 0rem 1rem;
+  padding: 1rem;
 }
 
 .amanda-info-paragraph {

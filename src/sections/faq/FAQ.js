@@ -125,8 +125,11 @@ function FAQ() {
                   </li>
                   <li>
                     Learn the basics about hiring a web developer by reading
-                    this
-                    <a href="https://websitesetup.org/hire-a-web-developer/">
+                    this{" "}
+                    <a
+                      id="article"
+                      href="https://websitesetup.org/hire-a-web-developer/"
+                    >
                       article
                     </a>
                     .

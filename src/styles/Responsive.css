@@ -1,14 +1,6 @@
-@media (max-width: 1400px) {
-  .me-auto {
-    letter-spacing: 1px;
-    padding: 0rem 2rem;
-  }
-  #amanda {
-    font-size: 55px;
-    letter-spacing: 3px;
-  }
-  #the-developer {
-    font-size: 57px;
+@media (max-width: 1500px) {
+  #FAQ-styleLine {
+    width: 60%;
   }
 }
 
@@ -17,15 +9,11 @@
     letter-spacing: 1px;
     padding: 0rem 1rem;
   }
-  #amanda {
-    font-size: 45px;
-    letter-spacing: 3px;
-  }
-  #the-developer {
-    font-size: 50px;
-  }
   .nav-items {
     font-size: 18px;
+  }
+  #services-body {
+    grid-template-columns: 1fr;
   }
   #FAQ-styleLine {
     width: 0%;
@@ -40,13 +28,6 @@
 }
 
 @media (max-width: 1100px) {
-  #amanda {
-    font-size: 40px;
-    letter-spacing: 3px;
-  }
-  #the-developer {
-    font-size: 45px;
-  }
   .nav-items {
     font-size: 17px;
     letter-spacing: 0;
@@ -62,54 +43,60 @@
 }
 
 @media (max-width: 991px) {
+  h2 {
+    font-size: 60px;
+  }
   #brand {
-    width: 0%;
-    height: 0;
-    font-size: 0;
-    visibility: collapse;
+    max-height: 120px;
+    width: 50%;
+  }
+  .me-auto {
+    background: #131916;
   }
   .welcome {
     padding: 3rem;
-  }
-  #slogan {
-    font-size: 20px;
+    max-height: 500px;
   }
   #landing-header {
     font-size: 55px;
     text-align: center;
   }
-  #how-it-works {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #contact-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
   }
-  #table {
-    width: 100%;
-  }
-  .service {
-    width: 600px;
-    height: 372px;
+  .circle {
+    margin-left: 25%;
   }
 }
 
 @media (max-width: 800px) {
-  .process {
-    width: 350px;
-  }
   .icon {
-    width: 11%;
+    width: 30%;
+  }
+  #slogan {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .process {
+    width: 90%;
+  }
+  .step {
+    width: 70%;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 600px) {
-  .service.active {
-    height: 100%;
+  #landing {
+        height: 110vh;
   }
   .icon i {
     font-size: 40px;
-  }
-  .qCard {
-    width: 85%;
   }
   .swipe-card-title {
     font-size: 18px;
@@ -120,13 +107,12 @@
   #FAQ-title {
     width: 100%;
   }
-  #contact {
-    height: 100%;
-  }
   #contact-styleLine,
-  #styleLine2 {
+  #styleLine2, 
+  .styleLine {
     visibility: hidden;
     width: 0;
+    height: 0;
     margin: 0;
   }
   #contact-header,
@@ -134,6 +120,17 @@
     justify-content: center;
     width: 100%;
     text-align: center;
+  }
+  #contact-header,
+  #contact-title {
+    padding: 0;
+  }
+  #contact-body {
+    height: 100%;
+  }
+  .circle {
+    width: 125px;
+    height: 125px;
   }
 }
 
@@ -144,6 +141,12 @@
   .swipe-card-title {
     font-size: 16px;
     letter-spacing: 0;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  #brand {
+    visibility: hidden;
   }
 }
 

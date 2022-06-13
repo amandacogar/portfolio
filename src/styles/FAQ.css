@@ -16,10 +16,7 @@
 }
 
 #FAQ-title {
-  font-family: "Allison", sans-serif;
-  font-size: 60px;
   color: #e0d4cb;
-  padding: 2rem 0;
   flex-wrap: nowrap;
 }
 
@@ -27,7 +24,6 @@
   width: 40%;
   height: 0.2rem;
   background-color: #8f6450;
-  margin: 2rem;
 }
 
 #FAQ-body {
@@ -35,11 +31,11 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 #faq-container {
   width: 100%;
-  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,7 +43,7 @@
 }
 
 .qCard {
-  width: 60%;
+  width: 90%;
   padding: 1rem;
   overflow: hidden;
   transition: 0.3s ease;
@@ -64,6 +60,7 @@ h2.faq-title.accordion-header {
   font-size: 20px;
   display: flex;
   flex-direction: row;
+  margin-top: 0;
 }
 
 .accordion-button:not(.collapsed) {
@@ -86,4 +83,8 @@ button.accordion-button:not(.collapsed)::after {
 
 .faq-text div {
   padding: 10px;
+}
+
+#article {
+  color: White;
 }

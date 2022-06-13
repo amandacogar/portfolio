@@ -24,8 +24,7 @@ function Services() {
               Every custom website that I create comes with technical
               Search-Engine-Optimization to attract new customers to your
               business, Google Analytics to monitor your site's effectiveness, a
-              custom email domain, extensive testing, and 3 months of free
-              maintenance support.
+              custom email domain, and extensive testing.
             </p>
           </div>
           <div className="service" id="maintenance">
@@ -41,6 +40,21 @@ function Services() {
               Whether your existing website has a small problem or needs to be
               completely revamped, I can help you reach your goals at any stage
               of the process.
+            </p>
+          </div>
+          <div className="service" id="templates">
+            <i className="fas fa-file-download"></i>
+            <h3 className="service-title">Wix Web Templates</h3>
+            <p>
+              Bored of the basic website templates that everyone else has? I
+              offer template solutions for sale on Creative Market Place and
+              Etsy. All templates include 5+ designed pages, 20+ curated stock
+              photographs, color palette, typography scale, and are designed to
+              be responsive to all screen sizes.
+            </p>
+            <p>
+              After purchase, you can upload your custom content and modify the
+              design as you see fit, making the template uniquely yours.
             </p>
           </div>
         </div>
