@@ -74,6 +74,9 @@
   .circle {
     margin-left: 25%;
   }
+  .swiper-wrapper {
+      margin: 3rem;
+  }
 }
 
 @media (max-width: 800px) {
