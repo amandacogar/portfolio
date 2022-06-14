@@ -41,5 +41,5 @@
 #web-logo {
   width: 100%;
   max-width: 440px;
-  opacity: 75%;
+  z-index: 3;
 }

@@ -13,7 +13,11 @@
     font-size: 18px;
   }
   #services-body {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  .service {
+      height: 100%;
   }
   #FAQ-styleLine {
     width: 0%;
@@ -101,9 +105,7 @@
   .swipe-card-title {
     font-size: 18px;
   }
-  .service {
-    height: 100%;
-  }
+  
   #FAQ-title {
     width: 100%;
   }
@@ -147,12 +149,6 @@
   }
   #brand {
     visibility: hidden;
-  }
-}
-
-@media (max-width: 460px) {
-  #contact-body {
-    flex-direction: column;
   }
 }
 

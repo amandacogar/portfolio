@@ -19,11 +19,6 @@
   position: relative;
 }
 
-#background {
-  height: 100%;
-  width: 100%;
-}
-
 #background-layover {
   background-color: #091614;
   opacity: 0.7;

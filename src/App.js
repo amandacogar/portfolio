@@ -5,8 +5,6 @@ import Landing from "./sections/landing/Landing";
 import "./styles/Landing.css";
 import Services from "./sections/about/Services";
 import "./styles/Services.css";
-import HowItWorks from "./sections/about/HowItWorks";
-import "./styles/HowItWorks.css";
 import MeetAmanda from "./sections/about/MeetAmanda";
 import "./styles/MeetAmanda.css";
 import Samples from "./sections/portfolio/Portfolio";
