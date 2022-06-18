@@ -31,7 +31,7 @@
 .welcome {
   position: absolute;
   top: 20%;
-  z-index: 3;
+  z-index: 5;
   color: #e0d4cb;
   padding: 5rem;
   display: flex;
@@ -75,7 +75,7 @@
 }
 
 #start:hover {
-  background-color: rgba(255, 255, 255, 0.705);
+  background-color: white;
   color: #8f6450;
   transition: 0.5 ease all;
 }

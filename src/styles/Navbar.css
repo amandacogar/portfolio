@@ -2,24 +2,29 @@
 
 .navbar {
   padding: 0;
-  width: 110%;
+  width: 100%;
 }
 
-.me-auto {
+#menu-title {
+  font: "Raleway";
+  color: white;
+  letter-spacing: 2px;
+  z-index: 5;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.mb-3 {
+  z-index: 4;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family: "Raleway";
-  font-size: 14px;
-  background-color: #13191691;
 }
 
 .navbar-toggler {
   margin: 10px;
-  border: 2px solid white;
+  border: none;
 }
 
 .navbar-toggler-icon {
@@ -27,9 +32,33 @@
   height: 50px;
 }
 
+.offcanvas {
+  background-color: #0d1012;
+}
+
+.btn-close {
+  width: 50px;
+  height: 50px;
+  background-image: url("../sections/landing/Close-Btn.svg");
+  background-size: cover;
+  margin-left: 80%;
+}
+
+.me-auto {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: transparent;
+}
+
 .nav-link {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Raleway";
   font-size: 20px;
   text-align: center;
+  color: #e0d4cb;
 }
 
 .nav-link:hover {

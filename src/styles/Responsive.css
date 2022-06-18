@@ -5,10 +5,6 @@
 }
 
 @media (max-width: 1200px) {
-  .me-auto {
-    letter-spacing: 1px;
-    padding: 0rem 1rem;
-  }
   .nav-items {
     font-size: 18px;
   }
@@ -32,10 +28,6 @@
 }
 
 @media (max-width: 1100px) {
-  .nav-items {
-    font-size: 17px;
-    letter-spacing: 0;
-  }
   #amanda-info {
     flex-direction: column;
     height: 100%;
@@ -53,9 +45,6 @@
   #brand {
     max-height: 120px;
     width: 50%;
-  }
-  .me-auto {
-    background: #131916;
   }
   .welcome {
     padding: 3rem;
@@ -152,17 +141,5 @@
   }
   #brand {
     visibility: hidden;
-  }
-}
-
-@media (max-width: 400px) {
-  .swipe-card-title {
-    font-size: 14px;
-  }
-  .swipe-card-description {
-    font-size: 12px;
-  }
-  .swipe-button {
-    font-size: 12px;
   }
 }

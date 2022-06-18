@@ -52,7 +52,11 @@ function Portfolio() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <Image src={bar} className="web-image" alt="" />
+              <Image
+                src={bar}
+                className="web-image"
+                alt="Screenshot of the home screen of bartemplate.amandacogar.com "
+              />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Local Bar</h2>
                 <h3 className="swipe-card-description">
@@ -64,7 +68,11 @@ function Portfolio() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <img src={nails} className="web-image" alt="" />
+              <img
+                src={nails}
+                className="web-image"
+                alt="Screenshot of the home screen of nails.amandacogar.com "
+              />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Nail Salon</h2>
                 <h3 className="swipe-card-description">
@@ -79,7 +87,7 @@ function Portfolio() {
               <img
                 src={dilladoes}
                 className="web-image"
-                alt="Screenshot of the landing page of the website 'dilladoes.com'"
+                alt="Screenshot of the home page of the website dilladoes.com"
               />
               <div className="swipe-card">
                 <h2 className="swipe-card-title">Dilla Does</h2>

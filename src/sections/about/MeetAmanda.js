@@ -11,7 +11,11 @@ function About() {
       </div>
       <div id="meet-amanda-body">
         <div id="amanda-info">
-          <Image src={Profile} id="amanda-image" />
+          <Image
+            src={Profile}
+            id="amanda-image"
+            alt="woman at her desk on the computer writing code"
+          />
           <div className="content">
             <h3>My Mission</h3>
             <div className="amanda-info-paragraph">
